@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Delhi Travel & Heritage Guide</title>
+<style>
+
+*{margin:0;padding:0;box-sizing:border-box;}
+body{
+  font-family:'Poppins',sans-serif;
+  background:linear-gradient(135deg,#ff0099, #ff6600, mediumslateblue, crimson, aqua, springgreen, #ff6600);
+  color:#fff;
+  scroll-behavior:smooth;
+  line-height:1.6;
+  animation:bgMove 10s ease infinite alternate;
+}
+@keyframes bgMove{
+  0%{background-position:left;}
+  100%{background-position:right;}
+}
+header{
+  text-align:center;
+  padding:40px 20px;
+  background:linear-gradient(90deg,#ff0099,#ff6600);
+  box-shadow:0 5px 15px rgba(0,0,0,0.4);
+}
+header h1{
+  font-size:3rem;
+  color:black;
+  margin-bottom:10px;
+}
+header p{
+  font-size:1.2rem;
+  font-weight:bold;
+}
+nav{
+  display:flex;
+  justify-content:center;
+  flex-wrap:wrap;
+  background:rgba(0,0,0,0.7);
+}
+nav a{
+  color:white;
+  text-decoration:none;
+  padding:12px 22px;
+  margin:4px;
+  border-radius:8px;
+  font-weight:bold;
+  transition:0.3s;
+}
+nav a:hover,nav a.active{
+  background:white;
+  color:#ff0099;
+  box-shadow:0 4px 12px rgba(0,0,0,0.4);
+}
+section{
+  padding:60px 25px;
+  max-width:1200px;
+  margin:auto;
+}
+h2{
+  text-align:center;
+  font-size:2.5rem;
+  color:black;
+  margin-bottom:30px;
+}
+.grid{
+  display:grid;
+  grid-template-columns:1fr;
+  gap:20px;
+}
+@media(min-width:768px){.grid{grid-template-columns:repeat(2,1fr);}}
+@media(min-width:1200px){.grid{grid-template-columns:repeat(3,1fr);}}
+.card{
+  background:rgba(255,255,255,0.15);
+  border-radius:15px;
+  padding:20px;
+  box-shadow:0 5px 20px rgba(0,0,0,0.4);
+  transition:all 0.3s ease;
+}
+.card:hover{
+  transform:translateY(-6px);
+  background:rgba(255,255,255,0.25);
+}
+.card img{
+  width:100%;
+  height:230px;
+  object-fit:cover;
+  border-radius:10px;
+  margin-bottom:15px;
+}
+.card h3{color:black;margin-bottom:5px;}
+.card p{color:white;}
+.btn{
+  display:inline-block;
+  padding:12px 25px;
+  background:black;
+  color:#fff;
+  border-radius:8px;
+  text-decoration:none;
+  font-weight:bold;
+  transition:0.3s;
+}
+.btn:hover{
+  background:white;
+  color:#ff0099;
+}
+footer{
+  text-align:center;
+  padding:25px;
+  background:linear-gradient(to right, teal, cyan);
+  font-size:1rem;
+}
+section{animation:fadeIn 1.2s ease;}
+@keyframes fadeIn{from{opacity:0;}to{opacity:1;}}
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Explore Delhi – Complete Travel Guide</h1>
+  <p>Culture, Heritage, Food, Temples, and Modern Vibes of India's Heart</p>
+</header>
+
+<nav>
+  <a href="#home" class="active">Home</a>
+  <a href="#wonders">Wonders</a>
+  <a href="#iconic landmarks">Iconic Landmarks</a>
+  <a href="#universities">Universities</a>
+  <a href="#places">Famous Places</a>
+  <a href="#history">Historic Delhi</a>
+  <a href="#food">Food</a>
+  <a href="#markets">Markets</a>
+  <a href="#temples">Temples</a>
+  <a href="#parks">Parks</a>
+  <a href="#museums">Museums</a>
+  <a href="#modern">Modern Delhi</a>
+  <a href="#facts">Interesting Facts</a>
+  <a href="#tips">Travel Tips</a>
+</nav>
+
+<section id="home">
+<h2>Welcome to Delhi</h2>
+<p style="color:#1a1a1a;">Delhi — the heart of India — where history and modernity live side by side. From majestic Mughal forts to sparkling skyscrapers, 
+   the city tells a timeless story. Relish street food, explore sacred temples, and wander through lively markets like Chandni Chowk.
+   Take a peaceful stroll in Lodhi Garden, marvel at Akshardham, and feel the pride of India Gate. Hop on the Metro, 
+   soak in the vibrant culture, and experience the enduring charm of Delhi.</p>
+</section>
+
+<!-- Existing sections remain the same, only paragraph colors adjusted -->
+
+<!-- New Delhi Wonders -->
+<section id="wonders">
+<h2>New Delhi Wonders</h2>
+<p style="color:#1a1a1a;">Delhi’s iconic wonders beautifully blend spirituality, architecture, and cultural pride. From peaceful gurudwaras to bustling 
+railway stations connecting millions daily — these landmarks showcase the capital’s energy, devotion, and modern connectivity. Every corner reveals a powerful part of India’s vibrant identity.</p>
+<br>
+<div class="grid">
+  <div class="card">
+    <img src="https://d34vm3j4h7f97z.cloudfront.net/optimized/4X/1/7/e/17e6a6efd08389bb332ace3945e9c9de93c667f5_2_690x467.jpeg">
+    <h3>Gurudwara Sis Ganj Sahib</h3>
+    <p style="color:#1a1a1a;">Located in Chandni Chowk, Gurudwara Sis Ganj Sahib marks the martyrdom of Guru Tegh Bahadur Ji. Its serene atmosphere and community langar reflect Sikh faith and equality, welcoming everyone with devotion.</p>
+  </div>
+  <div class="card">
+    <img src="https://s7ap1.scene7.com/is/image/incredibleindia/gurudwara-banga-sahib-delhi-1-attr-hero?qlt=82&ts=1742170364166">
+    <h3>Bangla Sahib Gurudwara</h3>
+    <p style="color:#1a1a1a;">Known for its golden dome and holy Sarovar, Bangla Sahib Gurudwara is a revered spiritual spot in central Delhi. Visitors come for seva, peace, and its famous langar, experiencing devotion and community harmony.</p>
+  </div>
+    <div class="card">
+    <img src="https://i.redd.it/iw7qvxadyox91.jpg">
+    <h3>New Delhi Junction</h3>
+    <p style="color:#1a1a1a;">New Delhi Junction is the central hub of India's railway network, connecting the capital to all regions efficiently. The busy station reflects India’s vibrant culture and diversity through its bustling crowds and energy.</p>
+  </div>
+</div>
+</section>
+
+<!-- Iconic Government Landmarks -->
+<section id="iconic landmarks">
+<h2>Iconic Government Landmarks</h2>
+<p style="color:#1a1a1a;">Delhi’s iconic government landmarks reflect the nation’s political power and architectural brilliance. Rashtrapati Bhavan, Parliament House,
+and Kartavya Path showcase India’s rich history, democratic values, and ceremonial grandeur. Each site combines functionality with aesthetic elegance, attracting 
+visitors from across the world.</p>
+<br>
+<div class="grid">
+  <div class="card">
+    <img src="https://media3.thrillophilia.com/filestore/74krhtegb28rbaxajjti7erq2t4o_Downpic.cc-image475482810.jpg?w=400&dpr=2">
+    <h3>Rashtrapati Bhavan</h3>
+    <p style="color:#1a1a1a;">ashtrapati Bhavan is the official residence of the President of India. Its majestic architecture combines Mughal and European styles, featuring sprawling gardens, grand halls, and ceremonial spaces. Visitors are captivated by its elegance, symbolism, and historical significance in India’s governance.</p>
+  </div>
+  <div class="card">
+    <img src="https://assets.architecturaldigest.in/photos/649294649c2486f42ff6180d/master/w_1600%2Cc_limit/DJI_0412.jpg">
+    <h3>parliament house</h3>
+    <p style="color:#1a1a1a;">Parliament House, or Sansad Bhavan, is the seat of India’s Parliament. Its circular structure and classical design represent democratic ideals and legislative authority. The building hosts parliamentary sessions and ceremonial events, making it a symbol of India’s political power and civic pride.</p>
+  </div>
+    <div class="card">
+    <img src="https://sc0.blr1.cdn.digitaloceanspaces.com/article/185994-xdsgemhkme-1674487405.jpg">
+    <h3>kartavya path</h3>
+    <p style="color:#1a1a1a;">Kartavya Path, formerly Rajpath, is a ceremonial boulevard connecting Rashtrapati Bhavan to India Gate. Lined with lush lawns and historic monuments, it hosts Republic Day parades and national celebrations, showcasing India’s grandeur, culture, and patriotic spirit.</p>
+  </div>
+</div>
+</section>
+
+<!-- Education Hubs of Delhi -->
+<section id="universities">
+<h2>Education Hubs of Delhi</h2>
+<p style="color:#1a1a1a;">Delhi is a dream destination for students seeking world-class education and global opportunities. Here, universities combine cultural 
+depth with modern research and innovation. The lively campus life encourages creativity, career growth, and lifelong friendships — making Delhi a true hub of knowledge and student dreams.</p>
+<br>
+<div class="grid">
+  <div class="card">
+    <img src="https://cuetmock.com/img/blogs/weyiuwsteyruo02si4nyewauwe3rples.jpg">
+    <h3>Delhi University</h3>
+    <p style="color:#1a1a1a;">Delhi University is a prestigious central university known for academics and vibrant culture. Its historic red-brick buildings attract students nationwide, offering a mix of tradition, modern facilities, research opportunities, and learning excellence in various disciplines.</p>
+  </div>
+  <div class="card">
+    <img src="https://media.getmyuni.com/azure/college-image/big/jagan-institute-of-management-studies-jims-new-delhi.jpg">
+    <h3>Jagan Institute of Management Studies</h3>
+    <p style="color:#1a1a1a;">JIMS is a top management and technology institute in Delhi, combining innovation with practical learning. It shapes professionals with global competence and industry-ready skills and ethical values for the modern workplace.</p>
+  </div>
+  <div class="card">
+    <img src="https://image-static.collegedunia.com/public/college_data/images/appImage/14973308071443084987AMITYNOIDANEW.jpg">
+    <h3>Amity University</h3>
+    <p style="color:#1a1a1a;">Amity University features modern infrastructure and multidisciplinary education. Its world-class campus fosters research, innovation, creativity, and academic excellence, providing students opportunities and reflecting Delhi NCR’s evolution.</p>
+  </div>
+</div>
+</section>
+
+<!-- Famous Tourist Attractions -->
+<section id="places">
+<h2>Famous Tourist Attractions</h2>
+<p style="color:#1a1a1a;">Delhi’s famous attractions tell stories of emperors, architecture, and independence. Every monument stands strong as a reminder of India’s 
+glorious past. Walk through grand forts, heritage complexes, and iconic war memorials — each offering a perfect blend of history and pride.</p>
+<br>
+<div class="grid">
+  <div class="card">
+    <img src="https://api.theindia.co.in/storage/image/places/banner_red-fort_972.jpg">
+    <h3>Red Fort</h3>
+    <p style="color:#1a1a1a;">Built by Shah Jahan, the Red Fort symbolizes India’s sovereignty. Its red sandstone walls witnessed royal parades, colonial conquests, and the freedom struggle, reflecting India’s rich cultural and architectural grandeur.</p>
+  </div>
+  <div class="card">
+    <img src="https://travelsetu.com/apps/uploads/new_destinations_photos/destination/2023/12/27/5c47137b8b32bdc3702a6c0b4b2359e9_1000x1000.jpg">
+    <h3>India Gate</h3>
+    <p style="color:#1a1a1a;">India Gate is a tribute to soldiers who died in World War I. Surrounded by green lawns and historic monuments, it glows beautifully at night and remains a central place for pride, remembrance, and family visits in Delhi.</p>
+  </div>
+  <div class="card">
+    <img src="https://www.thedelhitours.com/blog/wp-content/uploads/2024/09/Qutub-Minar.jpg">
+    <h3>Qutub Minar</h3>
+    <p style="color:#1a1a1a;">The Qutub Minar, built in 1193, is the tallest brick minaret in the world. Its detailed carvings and inscriptions beautifully showcase Indo-Islamic architecture and reflect the skill and artistry of the early Delhi Sultanate era.</p>
+  </div>
+</div>
+</section>
+
+<!-- Historic Delhi -->
+<section id="history">
+<h2>Historic Delhi</h2>
+<p style="color:#1a1a1a;">Old Delhi carries the legacy of centuries wrapped in art, war, and cultural shift. Its monuments, forts, and mausoleums reflect royalty, 
+religion, and architectural brilliance. Exploring these sites feels like stepping into a living museum — where every stone speaks of powerful empires and forgotten tales.</p>
+<br>
+<div class="grid">
+  <div class="card">
+    <img src="https://miro.medium.com/1*CNGOGuIUsNE5Vz4fFQG99Q.jpeg">
+    <h3>Humayun’s Tomb</h3>
+    <p style="color:#1a1a1a;">Humayun’s Tomb, a Persian-style mausoleum, inspired the Taj Mahal. Surrounded by Mughal gardens, it reflects grandeur and symmetry, showcasing the timeless architecture of the Mughal era in red sandstone and marble.</p>
+  </div>
+  <div class="card">
+    <img src="https://cdn.britannica.com/09/189809-050-FAC505B0/Jama-Masjid-Delhi.jpg">
+    <h3>Jama Masjid</h3>
+    <p style="color:#1a1a1a;">Constructed by Shah Jahan, Jama Masjid is India’s largest mosque with capacity for 25,000 worshippers. Its steps offer panoramic views of Old Delhi, blending devotion, chaos, and architectural beauty seamlessly.</p>
+  </div>
+  <div class="card">
+    <img src="https://www.sushanttravels.com/uploads/V0oeUpb_PURANA_QUILA_2.jpg">
+    <h3>Purana Qila</h3>
+    <p style="color:#1a1a1a;">Purana Qila, built on ancient Indraprastha grounds, magnificently showcases Delhi’s medieval fortifications. Its massive gates and ramparts tell stories of power and history, coming alive during evening light shows.</p>
+</div>
+</section>
+
+<!-- Delhi’s Delicious Food -->
+<section id="food">
+<h2>Delhi’s Delicious Food</h2>
+<p style="color:#1a1a1a;">Delhi is heaven for food lovers — bold spices, rich aromas, and irresistible flavors. From chaat stalls to legendary sweet shops, every bite 
+brings joy and nostalgia. Food here is not just taste — it’s an emotion, a celebration, and a memorable experience. Street by street, Delhi feeds the soul!</p>
+<br>
+<div class="grid">
+  <div class="card">
+    <img src="https://www.traveltoindia.org/blog/wp-content/uploads/2024/10/Famous-Street-Foods-in-Delhi-for-taste-delights_11zon.webp">
+    <h3>Street Food</h3>
+    <p style="color:#1a1a1a;">Delhi’s street food ranges from spicy chaat to kebabs, offering bold flavors and irresistible aromas. Each bite represents generations of culinary tradition, making the city a paradise for food lovers seeking variety and spice.</p>
+  </div>
+  <div class="card">
+    <img src="https://yometro.com/images/places/chandni-chowk.jpg">
+    <h3>Paranthe Wali Gali</h3>
+    <p style="color:#1a1a1a;">Paranthe Wali Gali serves stuffed paranthas in Delhi since the Mughal era. Its wide variety of delicious fillings, from potato to banana, perfectly captures the charm of old Delhi in every bite for locals and tourists alike.</p>
+  </div>
+  <div class="card">
+    <img src="https://kanwarjis.in/cdn/shop/articles/64745180c4b64_d8448ae8-1639-44ac-9e45-8d5456f4efca-7182557.webp?v=1758297688">
+    <h3>Sweet Treats</h3>
+    <p style="color:#1a1a1a;">Delhi’s sweet shops, some over a century old, serve iconic treats like jalebi, rasmalai, and lassi. These timeless delicacies provide a perfect end to a flavorful day exploring Delhi’s vibrant streets and rich culinary culture.</p>
+  </div>
+</div>
+</section>
+
+<!-- Vibrant Markets -->
+<section id="markets">
+<h2>Vibrant Markets</h2>
+<p style="color:#1a1a1a;">Delhi’s markets are full of life — colorful shops, lively streets, and endless shopping thrills. From traditional ethnic wear to modern 
+fashion and handmade crafts —everything here has a story. Shopping becomes a festive experience with street snacks and cheerful crowds everywhere.</p>
+<br>
+<div class="grid">
+  <div class="card">
+    <img src="https://media.cnn.com/api/v1/images/stellar/prod/gurudwara-sis-ganj-and-the-golden-mosque-next-to-it.jpg?c=16x9&q=h_833,w_1480,c_fill">
+    <h3>Chandni Chowk</h3>
+    <p style="color:#1a1a1a;">Chandni Chowk is one of Delhi’s oldest and busiest markets. Famous for exquisite jewelry, aromatic spices, and colorful ethnic wear, it beautifully combines historic charm with vibrant shopping experiences for locals.</p>
+  </div>
+  <div class="card">
+    <img src="https://d3s17d6e02vnzq.cloudfront.net/0000/271/2025/06/18/why-tourist-love-connaught-place.webp">
+    <h3>Connaught Place</h3>
+    <p style="color:#1a1a1a;">Connaught Place is a colonial-style market hub featuring elegant shops, cafés, and vibrant nightlife. Its circular design and lively atmosphere make it a central destination for shopping, dining, and entertainment.</p>
+  </div>
+  <div class="card">
+    <img src="https://travelsetu.com/apps/uploads/new_destinations_photos/destination/2023/12/27/c7b5766fbd9d3c49ecdfcc428a05e8d3_1000x1000.jpg">
+    <h3>Dilli Haat</h3>
+    <p style="color:#1a1a1a;">Dilli Haat is a lively open-air crafts bazaar offering authentic food, art, and products from all Indian states. Its colorful cultural displays and vibrant stalls make it a popular hub for traditional crafts and diverse culinary delights.</p>
+  </div>
+</div>
+</section>
+
+<!-- Spiritual Temples -->
+<section id="temples">
+<h2>Spiritual Temples</h2>
+<p style="color:#1a1a1a;">Delhi welcomes every faith with sacred temples full of peace and devotion. These beautifully designed places encourage meditation, hope, 
+and positivity. Visitors experience a deep spiritual connection while exploring divine architecture — a perfect escape from the fast-paced city life.</p>
+<br>
+<div class="grid">
+  <div class="card">
+    <img src="https://media.easemytrip.com/media/Blog/India/637116640324801740/637116640324801740fHrmt3.jpg">
+    <h3>Akshardham Temple</h3>
+    <p style="color:#1a1a1a;">Akshardham Temple showcases traditional Indian art and architecture. Its grand halls, captivating exhibitions, and serene gardens offer deep cultural insight and a spiritual experience for visitors from around the world.</p>
+  </div>
+  <div class="card">
+    <img src="https://cdn.britannica.com/67/156667-050-62285333/Lotus-Temple-New-Delhi-India.jpg">
+    <h3>Lotus Temple</h3>
+    <p style="color:#1a1a1a;">The Lotus Temple, beautifully shaped like a lotus flower, is a renowned Baháʼí House of Worship. Its serene and spiritual environment attracts countless visitors seeking meditation, peace, and reflection in the heart of Delhi.</p>
+  </div>
+  <div class="card">
+    <img src="https://www.indiapilgrimtours.com/articles/wp-content/uploads/2017/04/iskcon-temple-new-delhi.jpg">
+    <h3>ISKCON Temple</h3>
+    <p style="color:#1a1a1a;">ISKCON Temple is a vibrant spiritual center for Lord Krishna devotees. Its soulful bhajans, delicious prasadam, engaging devotional activities provide visitors with a truly immersive religious and cultural experience.</p>
+  </div>
+</div>
+</section>
+
+<!-- Beautiful Parks -->
+<section id="parks">
+<h2>Beautiful Parks</h2>
+<p style="color:#1a1a1a;">Beyond the busy roads, Delhi offers refreshing green escapes — perfect for morning walks, yoga, and relaxation amidst nature. These parks 
+blend scenic landscapes with historic beauty, making them peaceful retreats for all ages, giving everyone space to unwind and breathe freely.</p>
+<br>
+<div class="grid">
+  <div class="card">
+    <img src="https://indiacinehub.gov.in/sites/default/files/styles/flexslider_full/public/2024-02/lodhi_garden_complex4.jpg?itok=05OI7KU0">
+    <h3>Lodhi Garden</h3>
+    <p style="color:#1a1a1a;">Lodhi Garden combines peaceful greenery with majestic historical tombs from the Lodi dynasty. Visitors enjoy relaxing serene walks, picnics, and stunning architectural marvels amidst beautifully landscaped gardens.</p>
+  </div>
+  <div class="card">
+    <img src="https://content3.jdmagicbox.com/v2/comp/delhi/k4/011pxx11.xx11.110921102916.f2k4/catalogue/nehru-park-chanakya-puri-delhi-parks-recmo9uti0.jpg">
+    <h3>Nehru Park</h3>
+    <p style="color:#1a1a1a;">Nehru Park is a popular and expansive green space in Chanakyapuri. Known for jogging tracks, pathways, and open-air concerts, it blends natural beauty with vibrant cultural gatherings for locals and visiting tourists alike.</p>
+  </div>
+  <div class="card">
+    <img src="https://s7ap1.scene7.com/is/image/incredibleindia/garden-of-five-senses-delhi-5-attr-hero?qlt=82&ts=1742202514088">
+    <h3>Garden of Five Senses</h3>
+    <p style="color:#1a1a1a;">This park is thoughtfully designed to stimulate all five senses with colorful flowers, sculptures, open cafés. Visitors experience art, nature & relaxing leisure activities in a creatively landscaped environment.</p>
+  </div>
+</div>
+</section>
+
+<!-- Famous Museums -->
+<section id="museums">
+<h2>Famous Museums</h2>
+<p style="color:#1a1a1a;">Delhi’s museums preserve India’s journey across thousands of years. From ancient artifacts to modern exhibits — knowledge comes alive here. 
+A perfect place for curious minds to explore history, science, and culture all under one roof, inspiring creativity and lifelong learning.</p>
+<br>
+<div class="grid">
+  <div class="card">
+    <img src="https://media1.thrillophilia.com/filestore/b7r3uledumojabl5lusddtt4i8x3_1575546324_shutterstock_601141364.jpg?w=400&dpr=2">
+    <h3>National Museum</h3>
+    <p style="color:#1a1a1a;">National Museum proudly exhibits India’s rich history from the Harappan era to contemporary art. Its diverse galleries educate and inspire visitors about culture, heritage, and artistic achievements across centuries.</p>
+  </div>
+  <div class="card">
+    <img src="https://www.nrmindia.org/assets/img/about.webp">
+    <h3>Rail Museum</h3>
+    <p style="color:#1a1a1a;">The Rail Museum displays vintage steam engines and offers miniature toy train rides. It’s a highly engaging educational spot for children and adults, reflecting India’s rich railway history and technological heritage.</p>
+  </div>
+  <div class="card">
+    <img src="https://www.t2india.com/Images/places/DEL/Attractions/gsb_1.jpg">
+    <h3>Gandhi Smriti</h3>
+    <p style="color:#1a1a1a;">Gandhi Smriti marks the historic place where Mahatma Gandhi spent his final days. Visitors peacefully experience calm, historical context, and deep inspiration from Gandhi’s truly remarkable and inspiring life and teachings.</p>
+  </div>
+</div>
+</section>
+
+<!-- Modern Delhi -->
+<section id="modern">
+<h2>Modern Delhi</h2>
+<p style="color:#1a1a1a;">Modern Delhi shines with skyscrapers, mall culture, nightlife, and high-tech spaces. It reflects a fast-growing India where business, 
+innovation, entertainment thrive together. From Cyber Hub to futuristic architecture — every place feels energetic, stylish, and global.
+This is the Delhi of today: bold, dynamic & unstoppable.</p>
+<br>
+<div class="grid">
+  <div class="card">
+    <img src="https://delhi-ncr.mallsmarket.com/sites/default/files/photos/malls/dlf-cyberhub-gurgaon-1.jpg">
+    <h3>Cyber Hub</h3>
+    <p style="color:#1a1a1a;">Cyber Hub in Gurugram is a modern bustling district for business, dining & entertainment. Its vibrant spaces and lively nightlife make it a hub for professionals and visitors seeking contemporary Delhi experiences.</p>
+  </div>
+  <div class="card">
+    <img src="https://static.vecteezy.com/ti/gratis-foton/p1/12401209-stor-staty-av-herre-hanuman-nara-de-delhi-metro-bro-belagen-nara-karol-bagh-delhi-indien-herre-hanuman-stor-staty-rorande-himmel-fotona.jpg">
+    <h3>Delhi Metro</h3>
+    <p style="color:#1a1a1a;">Delhi Metro is India’s most advanced and modern metro system, offering clean, safe, and highly efficient urban transit. It connects the city seamlessly, reducing travel time and greatly easing urban transportation.</p>
+  </div>
+  <div class="card">
+    <img src="https://latest.sundayguardianlive.com/wp-content/uploads/2019/04/0704_Page_05.jpg">
+    <h3>Aerocity</h3>
+    <p style="color:#1a1a1a;">Aerocity hosts premium hotels, lounges, and modern business spaces near Delhi Airport. It provides luxury accommodations and exceptional hospitality for travelers and professionals visiting the capital region.</p>
+  </div>
+</div>
+</section>
+
+<!-- Interesting Facts -->
+<section id="facts">
+<h2>Interesting Facts</h2> 
+<p style="color:#1a1a1a;">Delhi is full of surprising facts — from world records to ancient secrets. Its culture, food, monuments, and metro system continue to 
+amaze visitors. Even a local can discover something new every single day here — that’s how magical and diverse Delhi truly is!</p>
+<br>
+<ul style="max-width:900px; margin:auto; font-size:1.1rem; padding-left: 1.5em; list-style:none; color:#1a1a1a;">
+  <li style="position: relative; margin-bottom: 12px;">
+    <span style="position:absolute; left:-1.5em; color:#1a1a1a; font-size:1.2em;">▪</span>
+    Delhi has been rebuilt more than seven times in history, giving it layers of culture, architecture, and heritage.
+  </li>
+  <li style="position: relative; margin-bottom: 12px;">
+    <span style="position:absolute; left:-1.5em; color:#1a1a1a; font-size:1.2em;">▪</span>
+    Gurudwara Sis Ganj Sahib in Chandni Chowk commemorates the martyrdom of Guru Tegh Bahadur and is a spiritual landmark for Sikhs.
+  </li>
+  <li style="position: relative; margin-bottom: 12px;">
+    <span style="position:absolute; left:-1.5em; color:#1a1a1a; font-size:1.2em;">▪</span>
+    Qutub Minar, built in 1193, is taller than the Leaning Tower of Pisa and showcases exquisite Indo-Islamic architecture.
+  </li>
+  <li style="position: relative; margin-bottom: 12px;">
+    <span style="position:absolute; left:-1.5em; color:#1a1a1a; font-size:1.2em;">▪</span>
+    The Delhi Metro is one of the cleanest, safest, and most efficient urban transit systems in the world.
+  </li>
+  <li style="position: relative; margin-bottom: 12px;">
+    <span style="position:absolute; left:-1.5em; color:#1a1a1a; font-size:1.2em;">▪</span>
+    Asia’s largest spice market, Khari Baoli, in Old Delhi, offers a sensory explosion of colors, smells, and flavors.
+  </li>
+  <li style="position: relative; margin-bottom: 12px;">
+    <span style="position:absolute; left:-1.5em; color:#1a1a1a; font-size:1.2em;">▪</span>
+    India Gate stands as a tribute to Indian soldiers who sacrificed their lives in World War I and is beautifully illuminated at night.
+  </li>
+  <li style="position: relative; margin-bottom: 12px;">
+    <span style="position:absolute; left:-1.5em; color:#1a1a1a; font-size:1.2em;">▪</span>
+    Humayun’s Tomb is a UNESCO World Heritage Site that inspired the design of the Taj Mahal with its Persian-style gardens.
+  </li>
+  <li style="position: relative; margin-bottom: 12px;">
+    <span style="position:absolute; left:-1.5em; color:#1a1a1a; font-size:1.2em;">▪</span>
+    Delhi is home to over 2000 years of history, including ancient Indraprastha mentioned in the Mahabharata.
+  </li>
+  <li style="position: relative; margin-bottom: 12px;">
+    <span style="position:absolute; left:-1.5em; color:#1a1a1a; font-size:1.2em;">▪</span>
+    The Lotus Temple, a Baháʼí House of Worship, attracts millions for its serene ambiance and unique lotus-inspired architecture.
+  </li>
+  <li style="position: relative; margin-bottom: 12px;">
+    <span style="position:absolute; left:-1.5em; color:#1a1a1a; font-size:1.2em;">▪</span>
+    Chandni Chowk, one of the oldest markets in India, still preserves its 17th-century charm while offering modern shopping and culinary delights.
+  </li>
+</ul>
+</section>
+
+<!-- Travel Tips -->
+<section id="tips">
+<h2>Travel Tips</h2>
+<p style="color:#1a1a1a;">Best time to visit Delhi: October to March, when the weather is pleasant and sightseeing is comfortable.
+                Travel around the city efficiently by using the Delhi Metro — fast, clean, and safe.
+                Carry some cash for local markets and street shopping, as digital payments may not always work.
+                Stay hydrated, especially in the scorching summer months, and wear comfortable clothing.
+                Plan your days well to cover historical sites, markets, and cultural spots without rushing.</p>
+<div style="text-align:center;margin-top:20px;">
+  <a href="#home" class="btn">⬆ Back to Top</a>
+</div>
+</section>
+
+<!-- Copyright -->
+<footer>
+  <p style="color:black">
+  <span style="font-size: 25px; font-weight: 300; vertical-align: middle;">©</span> 
+  <script>document.write(new Date().getFullYear());</script> Delhi Travel Guide. All rights reserved. | This website is made with 
+  <i class="icon-heart color-danger" aria-hidden="true" style="color: red;"></i> ❤️ by
+  <a href="https://colorlib.com" target="_blank" style="background: linear-gradient(90deg, purple, blue, magenta);
+    -webkit-background-clip: text; -webkit-text-fill-color: transparent; text-decoration: none; font-weight: 600;">OpenAI</a>
+  </p>
+</footer>
+
+<script>
+const links=document.querySelectorAll('nav a');
+window.addEventListener('scroll',()=>{
+  let fromTop=window.scrollY+80;
+  links.forEach(link=>{
+    const section=document.querySelector(link.hash);
+    if(section.offsetTop<=fromTop && section.offsetTop+section.offsetHeight>fromTop){
+      link.classList.add('active');
+    }else{
+      link.classList.remove('active');
+    }
+  });
+});
+</script>
+
+</body>
+</html>
