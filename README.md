@@ -1,6 +1,6 @@
 # 🌆 Delhi Travel Guide – Explore the Heart of India
 
-https://rajeevgit8055hub.github.io/exploredelhi.github.io/
+🌐 [Delhi Travel Guide](https://rajeevgit8055hub.github.io/exploredelhi.github.io/)
 
 ---
 
