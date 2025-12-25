@@ -58,9 +58,7 @@ modern attractions, and local experiences.
 New Delhi is home to iconic landmarks, spiritual centers, and modern infrastructure.  
 From historical gurudwaras to bustling railway stations, the city reflects India’s diversity and energy.
 
-`urudwara Sis Ganj Sahib`, `Bangla Sahib Gurudwara`, `New Delhi Junction`
-
-`Rashtrapati Bhavan`, `Parliament house`,  `Kartavya path`  
+`urudwara Sis Ganj Sahib`  `Bangla Sahib Gurudwara`  `New Delhi Junction`  `Rashtrapati Bhavan`  `Parliament house`  `Kartavya path`  
 
 ---
 
@@ -69,7 +67,7 @@ From historical gurudwaras to bustling railway stations, the city reflects India
 Delhi hosts top universities and institutes, fostering academic excellence and innovation.  
 Students from across India and the world come here for quality education, vibrant campus life, and career opportunities.
 
-`Delhi University`, `Jagan Institute of Management Studies`,`Amity University`
+`Delhi University`  `Jagan Institute of Management Studies`  `Amity University`
 
 ---
 
@@ -78,7 +76,8 @@ Students from across India and the world come here for quality education, vibran
 Delhi’s tourist attractions include forts, monuments, and heritage sites.  
 These destinations narrate stories of emperors, independence, and cultural pride.
 
-`Red Fort`, `India Gate`,`Qutub Minar`
+`Red Fort`  `India Gate`  `Qutub Minar`
+
 ---
 
 ## <span id="historic-delhi">🏰 Historic Delhi</span> 
@@ -86,7 +85,7 @@ These destinations narrate stories of emperors, independence, and cultural pride
 Old Delhi carries centuries of history with its forts, mausoleums, and heritage buildings.  
 Walking through the streets is like stepping back in time, with every monument telling a story.
 
-`Humayun’s Tomb`, `Jama Masjid`,`Purana Qila`
+`Humayun’s Tomb`  `Jama Masjid`  `Purana Qila`
 
 ---
 
@@ -95,7 +94,7 @@ Walking through the streets is like stepping back in time, with every monument t
 Delhi is a paradise for food lovers.  
 Street food, traditional sweets, and iconic eateries offer flavors that reflect the city’s cultural diversity.
 
-`Street Food`, `Paranthe Wali Gali`,`Sweet Treats`
+`Street Food`  `Paranthe Wali Gali`  `Sweet Treats`
 
 ---
 
@@ -104,7 +103,7 @@ Street food, traditional sweets, and iconic eateries offer flavors that reflect 
 Delhi’s markets are lively, colorful, and full of shopping opportunities.  
 From historic bazaars to modern malls, visitors can find crafts, clothing, and culinary delights everywhere.
 
-`Chandni Chowk`, `Connaught Place`,`Dilli Haat`
+`Chandni Chowk`  `Connaught Place`  `Dilli Haat`
 
 ---
 
@@ -113,7 +112,7 @@ From historic bazaars to modern malls, visitors can find crafts, clothing, and c
 Delhi welcomes all faiths, with temples, gurudwaras, and spiritual centers offering peace and devotion.  
 These places provide opportunities for meditation, reflection, and cultural learning.
 
-`Akshardham Temple`, `Lotus Temple`,`ISKCON Temple`
+`Akshardham Temple`  `Lotus Temple`  `ISKCON Temple`
 
 ---
 
@@ -122,7 +121,7 @@ These places provide opportunities for meditation, reflection, and cultural lear
 Amidst the busy city, Delhi offers green spaces like gardens and parks for relaxation, yoga, and nature walks.  
 These parks combine scenic beauty with historical charm, offering peaceful retreats.
 
-`Lodhi Garden`, `Nehru Park`,`Garden of Five Senses`
+`Lodhi Garden`  `Nehru Park`  `Garden of Five Senses`
 
 ---
 
@@ -131,7 +130,7 @@ These parks combine scenic beauty with historical charm, offering peaceful retre
 Delhi’s museums preserve India’s history, art, and culture.  
 Visitors can explore ancient artifacts, modern exhibits, and educational displays that inspire learning.
 
-`National Museum`, `Rail Museum`, `Gandhi Smriti`
+`National Museum`  `Rail Museum`  `Gandhi Smriti`
 
 ---
 
@@ -140,7 +139,7 @@ Visitors can explore ancient artifacts, modern exhibits, and educational display
 Modern Delhi features skyscrapers, shopping hubs, business districts, and nightlife.  
 It represents a fast-growing, dynamic city that blends tradition with contemporary lifestyles.
 
-`Cyber Hub`, `Delhi Metro`, `Aerocity`
+`Cyber Hub`  `Delhi Metro`  `Aerocity`
 
 ---
 
@@ -175,7 +174,7 @@ It represents a fast-growing, dynamic city that blends tradition with contempora
 
 ## <span id="technologies-used">🛠️ Technologies Used</span> 
 
-- `HTML5`, `CSS3`, `JavaScript`  
+- `HTML5`  `CSS3`  `JavaScript`  
 - `Responsive web design`  
 - `Smooth scrolling navigation`  
 - `CSS grid layouts for content organization`
