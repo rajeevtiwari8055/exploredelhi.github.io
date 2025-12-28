@@ -29,40 +29,72 @@
   font-weight: 300;
 }
 
+/* contact Me */
+#contact {
+  text-align: center;
+  padding: 40px 0;
+}
+
+.contact-title {
+  color: black;
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.contact-icons a {
+  display: inline-block;
+  margin: 5px;
+  font-size: 30px;
+  color: black;
+  transition: transform 0.2s ease; /* Only smooth scaling */
+}
+
+.contact-icons a:hover {
+  transform: scale(1.2);
+  color: orange; /* Instant color change */
+}
+
 *{margin:0;padding:0;box-sizing:border-box;}
 body{
   font-family:'Poppins',sans-serif;
-  background:linear-gradient(135deg,#ff0099, #ff6600, mediumslateblue, crimson, aqua, mediumspringgreen, teal);
+  background:linear-gradient(135deg,#ff0099, #ff6600, mediumslateblue, deeppink, aqua, mediumspringgreen, teal);
   color:#fff;
   scroll-behavior:smooth;
   line-height:1.6;
   animation:bgMove 10s ease infinite alternate;
 }
+
 @keyframes bgMove{
   0%{background-position:left;}
   100%{background-position:right;}
 }
+
 header{
   text-align:center;
   padding:40px 20px;
   background:linear-gradient(90deg,#ff0099,#ff6600);
   box-shadow:0 5px 15px rgba(0,0,0,0.4);
 }
+
 header h1{
   font-size:3rem;
   color:black;
   margin-bottom:10px;
 }
+
 header p{
   font-size:1.2rem;
   font-weight:bold;
 }
+
 nav{
   display:flex;
   justify-content:center;
   flex-wrap:wrap;
   background:rgba(0,0,0,0.7);
 }
+
 nav a{
   color:white;
   text-decoration:none;
@@ -72,16 +104,19 @@ nav a{
   font-weight:bold;
   transition:0.3s;
 }
+
 nav a:hover,nav a.active{
   background:white;
   color:#ff0099;
   box-shadow:0 4px 12px rgba(0,0,0,0.4);
 }
+
 section{
   padding:60px 25px;
   max-width:1200px;
   margin:auto;
 }
+
 h2{
   text-align:center;
   font-size:2.5rem;
@@ -93,8 +128,10 @@ h2{
   grid-template-columns:1fr;
   gap:20px;
 }
+
 @media(min-width:768px){.grid{grid-template-columns:repeat(2,1fr);}}
 @media(min-width:1200px){.grid{grid-template-columns:repeat(3,1fr);}}
+
 .card{
   background:rgba(255,255,255,0.15);
   border-radius:15px;
@@ -102,10 +139,12 @@ h2{
   box-shadow:0 5px 20px rgba(0,0,0,0.4);
   transition:all 0.3s ease;
 }
+
 .card:hover{
   transform:translateY(-6px);
   background:rgba(255,255,255,0.25);
 }
+
 .card img{
   width:100%;
   height:230px;
@@ -113,8 +152,10 @@ h2{
   border-radius:10px;
   margin-bottom:15px;
 }
+
 .card h3{color:black;margin-bottom:5px;}
 .card p{color:white;}
+
 .btn{
   display:inline-block;
   padding:12px 25px;
@@ -125,16 +166,19 @@ h2{
   font-weight:bold;
   transition:0.3s;
 }
+
 .btn:hover{
   background:white;
   color:#ff0099;
 }
+
 footer{
   text-align:center;
   padding:25px;
   background:linear-gradient(to right, cyan, teal);
   font-size:1rem;
 }
+
 section{animation:fadeIn 1.2s ease;}
 @keyframes fadeIn{from{opacity:0;}to{opacity:1;}}
 </style>
@@ -195,6 +239,7 @@ section{animation:fadeIn 1.2s ease;}
   <a href="#modern">Modern Delhi</a>
   <a href="#facts">Interesting Facts</a>
   <a href="#tips">Travel Tips</a>
+  <a href="#contact">Contact Me</a>
 </nav>
 
 <section id="home">
@@ -544,12 +589,11 @@ amaze visitors. Even a local can discover something new every single day here â€
 </div>
 </section>
 
-<!-- LinkedIn Official Profile Badge Code (Centered) -->
-<h3 style="color: black; text-align: center; font-size: 25px; font-weight: 600; margin: 0 0 15px;">
-  Contact Me
-</h3>
+<!-- Contact Me -->
+<section id="contact">
+  <h2 class="contact-title">Contact Me</h2>
 
-<script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>
+  <script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>
 
 <div style="display: flex; justify-content: center; align-items: center;">
  <div class="badge-base LI-profile-badge" 
@@ -560,6 +604,42 @@ amaze visitors. Even a local can discover something new every single day here â€
   href="https://in.linkedin.com/in/rajeevtiwari8055?trk=profile-badge"></a>
  </div> 
 </div>
+  
+  <div class="contact-icons">
+    <!-- LinkedIn -->
+    <a href="https://www.linkedin.com/in/rajeevtiwari8055" target="_blank" title="LinkedIn">
+      <i class="fab fa-linkedin"></i>
+    </a>
+
+    <!-- GitHub -->
+    <a href="https://github.com/rajeevtiwari8055" target="_blank" title="GitHub">
+      <i class="fab fa-github"></i>
+    </a>
+
+    <!-- Website -->
+    <a href="https://rajeevtiwari8055.github.io/" target="_blank" title="Website">
+      <i class="fas fa-globe"></i>
+    </a>
+
+    <!-- Email -->
+    <a href="mailto:rajeevtiwari8055@gmail.com?subject=Hi%20Rajeev&body=I%20visited%20your%20website%20and%20wanted%20to%20connect%20with%20you!" title="Mail Me">
+      <i class="fas fa-envelope"></i>
+    </a>
+
+    <!-- Telegram -->
+    <a href="https://t.me/rajeevtiwari8055" target="_blank" title="Telegram">
+      <i class="fab fa-telegram"></i>
+    </a>
+
+    <!-- X (Twitter) -->
+    <a href="https://x.com/rajeevtiwariRT" target="_blank" title="X (Twitter)">
+      <i class="fab fa-x-twitter"></i>
+    </a>
+  </div>
+</section>
+
+<!-- FontAwesome Icons Link (Add this in <head>) -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 
 <!-- Copyright -->
 <footer>
