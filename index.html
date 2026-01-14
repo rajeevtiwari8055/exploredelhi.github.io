@@ -642,22 +642,40 @@ amaze visitors. Even a local can discover something new every single day here �
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 
 <!-- Copyright -->
-<footer>
-  <p style="color:black">
-    <span style="font-size: 20px; font-weight: 300; vertical-align: middle;">©</span> 
-    <script>document.write(new Date().getFullYear());</script>
-    Delhi Travel Guide. All rights reserved. | This website is made with 
-    <span style="color:black; font-size:16px;">&#10084;</span> by
-    <a href="https://colorlib.com" target="_blank"
-       style="background: linear-gradient(90deg, black);
-       -webkit-background-clip: text;
-       -webkit-text-fill-color: transparent;
-       text-decoration: none;
-       font-weight: 600;">
-       OpenAI
-    </a>
-  </p>
+ <footer>
+ <p class="footer-links">
+  <a href="terms.html" class="footer-link" target="_blank">Terms & Conditions↗</a> |  
+  <a href="privacy.html" class="footer-link" target="_blank">Privacy Policy↗</a>
+</p>
+
+<p style="font-weight: 300; font-size: 20px; background: linear-gradient(90deg, black); 
+  -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; color: transparent; display: inline-block;">
+  <span style="font-size: 25px; font-weight: 300; vertical-align: middle;">©</span> 
+  <script>document.write(new Date().getFullYear());</script> Rajeev's website | All rights reserved
+</p>
 </footer>
+
+<style>
+.footer-links {
+  font-weight: 300;
+  font-size: 20px;
+  text-align: center;
+  margin: 20px 0;
+
+  background: linear-gradient(90deg, black);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.footer-link {
+  text-decoration: none;
+}
+
+.footer-link:hover {
+  -webkit-text-fill-color: blue;
+  text-decoration: underline;
+}
+</style>
 
 <script>
 const links=document.querySelectorAll('nav a');
